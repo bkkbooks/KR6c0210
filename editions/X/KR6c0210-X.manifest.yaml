@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6c0210/X/v1
+canonical_location: https://kanripo.org/bkk/KR6c0210/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 仁王經疏會本
+  identifiers:
+    krp: KR6c0210
+    cbeta: X26n0514
+    cbeta_old_id: X26n0514
+    authorityid: CA0005302
+    json_key: X0514
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0514.xml
+    old_id: X26n0514
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0210_000-X.yaml, hash: 'sha256:d7df96732d627e078cae4897fc9b5452301212b32aeea3fd2348ded001d17101'}
+  - {seq: 1, filename: KR6c0210_001-X.yaml, hash: 'sha256:f5571dc03844256205f9f3e1f9235a3b4bd104b53baadb212767a46864f383e6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0210_000-X.markers.yaml, hash: 'sha256:0efbd5e732ea64f4dd75f079861f724df82325486d411556c7c6cd08e517bea7'}
+  - {seq: 1, role: markers, filename: assets/KR6c0210_001-X.markers.yaml, hash: 'sha256:40c57f612bf6d2fa09a5cebdd59674ebf73ac50dfe1b824982607df3271ff627'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0210_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 619
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0210_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: No. 514-A 會刻仁王護國般若經疏序
+  type: mulu
+  level: 1
+hash: sha256:ae7f0deb6dcb28e4c1d5abc6728dd114b59bfa3da0b3b978a64a7ce3ac962203

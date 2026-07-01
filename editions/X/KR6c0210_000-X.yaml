@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6c0210/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 仁王經疏會本
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0514.xml
+    old_id: X26n0514
+hash: sha256:d7df96732d627e078cae4897fc9b5452301212b32aeea3fd2348ded001d17101

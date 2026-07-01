@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6c0210/v1
+canonical_location: https://kanripo.org/bkk/KR6c0210/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 仁王經疏會本
+  identifiers:
+    alt_id:
+    - X26n0514
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0514.xml
+    old_id: X26n0514
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0210_000.yaml, hash: 'sha256:d7df96732d627e078cae4897fc9b5452301212b32aeea3fd2348ded001d17101'}
+  - {seq: 1, filename: KR6c0210_001.yaml, hash: 'sha256:005e9689028e0c6f3a4a6da313b874a8d97d0b5011f006413134c12e80c66e90'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0210_001.markers.yaml, hash: 'sha256:1ee82e66d8470ae3c9974613b0e7282f90ffec271a3a258cdfdc8cb465c23f89'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0210_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 619
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0210_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: No. 514-A 會刻仁王護國般若經疏序
+  type: mulu
+  level: 1
+hash: sha256:538958ba266f348e8198baf3994f278da0a8721d68b1b668b6f4fae075696e37
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
