@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0210_000.yaml, hash: 'sha256:d7df96732d627e078cae4897fc9b5452301212b32aeea3fd2348ded001d17101'}
-  - {seq: 1, filename: KR6c0210_001.yaml, hash: 'sha256:005e9689028e0c6f3a4a6da313b874a8d97d0b5011f006413134c12e80c66e90'}
+  - {seq: 1, filename: KR6c0210_001.yaml, hash: 'sha256:f5571dc03844256205f9f3e1f9235a3b4bd104b53baadb212767a46864f383e6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0210_001.markers.yaml, hash: 'sha256:1ee82e66d8470ae3c9974613b0e7282f90ffec271a3a258cdfdc8cb465c23f89'}
+  - {seq: 0, role: markers, filename: assets/KR6c0210_000.markers.yaml, hash: 'sha256:3443f1dfe64e746cdbe2ef8a5233189104ce497e47e5d078fbc12e7fb7a2a9f1'}
+  - {seq: 1, role: markers, filename: assets/KR6c0210_001.markers.yaml, hash: 'sha256:2772857aeefe696edd09c0a308c3fd33c56ea10a4235cdf61fd14ce7289e16bc'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,7 +47,4 @@ table_of_contents:
   label: No. 514-A 會刻仁王護國般若經疏序
   type: mulu
   level: 1
-hash: sha256:538958ba266f348e8198baf3994f278da0a8721d68b1b668b6f4fae075696e37
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:fb83b4853155b515eb893dbf05535083c7a0d5c71f3b68d43537e14c9858f852
